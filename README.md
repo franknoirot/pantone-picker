@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
@@ -67,3 +68,7 @@ Then, from within your project folder:
 npm run build
 surge public
 ```
+=======
+# pantone-picker
+A color picker mimicking Google's using Svelte.js, but it also gives you the nearest Pantone color.
+>>>>>>> 06928698e139bff10d3e9dc25bff39539cfd4488
