@@ -1,7 +1,7 @@
 {
     "name": "Pantone Color Picker",
     "path": "/pantone-picker",
-    "isExternal": false,
+    "isLocal": true,
     "isPublic": true,
     "themeColor": "hsl(200deg, 70deg, 60%);"
 }
