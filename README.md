@@ -1,74 +1,9 @@
-<<<<<<< HEAD
-*Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Pantone Color Picker
+I think color pickers are my to-do list. This was a project I built to test out how I could use Svelte.js for practical problems, and work on my styling mimicry, because I like how Google has designed their color picker widget on search.
 
----
+It's all pretty basic as far as Svelte goes. It uses Margaret2's great Pantone file resource to look up the nearest picked color and make a little card for it, then I generate a Google Image Search URL for that Panton color, or you can copy a color value with a click which is nice.
 
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
-=======
-# pantone-picker
-A color picker mimicking Google's using Svelte.js, but it also gives you the nearest Pantone color.
->>>>>>> 06928698e139bff10d3e9dc25bff39539cfd4488
+Some bugs:
+- the UI breaks if you put in values outside of the range
+- the UI doesn't include hex
+- the transitions are slightly out of sync because I'm using `transition: all` somewhere
